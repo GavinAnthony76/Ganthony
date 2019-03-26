@@ -5,8 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\scss\grayscale.scss" />
+    <None Include="wwwroot\scss\_about.scss" />
+    <None Include="wwwroot\scss\_buttons.scss" />
+    <None Include="wwwroot\scss\_contact.scss" />
+    <None Include="wwwroot\scss\_masthead.scss" />
+    <None Include="wwwroot\scss\_mixins.scss" />
+    <None Include="wwwroot\scss\_navbar.scss" />
+    <None Include="wwwroot\scss\_projects.scss" />
+    <None Include="wwwroot\scss\_signup.scss" />
+    <None Include="wwwroot\scss\_variables.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
 
 </Project>
