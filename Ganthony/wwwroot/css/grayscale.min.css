@@ -49,18 +49,19 @@
 
         #mainNav .navbar-brand {
             padding: .5rem 0;
-            color: rgba(255, 255, 255, 0.5);
+            color: rgba(100, 161, 157, 0.75);/*rgba(255, 255, 255, 0.5)*/
         }
 
         #mainNav .nav-link {
             -webkit-transition: none;
             transition: none;
             padding: 2rem 1.5rem;
-            color: rgba(255, 255, 255, 0.5);
+            color: rgba(100, 161, 157, 0.75); /*rgba(255, 255, 255, 0.5)*/
         }
 
+        /*BEFORE NAVBAR SCROLLS*/
             #mainNav .nav-link:hover {
-                color: rgba(255, 255, 255, 0.75);
+                color: red;
             }
 
             #mainNav .nav-link:active {
@@ -81,8 +82,9 @@
                 border-bottom: 0.25rem solid transparent;
             }
 
+            /*ADJUST AFTER NAV BAR SCROLLS*/
                 #mainNav.navbar-shrink .nav-link:hover {
-                    color: #64a19d;
+                    color: yellow;
                 }
 
                 #mainNav.navbar-shrink .nav-link:active {
