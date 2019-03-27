@@ -49,50 +49,50 @@
 
         #mainNav .navbar-brand {
             padding: .5rem 0;
-            color: rgba(100, 161, 157, 0.75);/*rgba(255, 255, 255, 0.5)*/
+            color: rgb(115, 115, 115);
         }
 
         #mainNav .nav-link {
             -webkit-transition: none;
             transition: none;
             padding: 2rem 1.5rem;
-            color: rgba(100, 161, 157, 0.75); /*rgba(255, 255, 255, 0.5)*/
+            color: rgb(115, 115, 115);
         }
 
         /*BEFORE NAVBAR SCROLLS*/
             #mainNav .nav-link:hover {
-                color: red;
+                color: rgb(0, 102, 204);
             }
 
             #mainNav .nav-link:active {
-                color: white;
+                color: purple;/*What does this really do?*/
             }
 
         #mainNav.navbar-shrink {
-            background-color: #64a19d;
+            background-color: rgba(0, 0, 0);
         }
 
             #mainNav.navbar-shrink .navbar-brand {
-                color: #161616;
+                color: rgb(115, 115, 115);
             }
 
             #mainNav.navbar-shrink .nav-link {
-                color: #161616;
+                color: #fff;
                 padding: 1.5rem 1.5rem 1.25rem;
                 border-bottom: 0.25rem solid transparent;
             }
 
             /*ADJUST AFTER NAV BAR SCROLLS*/
                 #mainNav.navbar-shrink .nav-link:hover {
-                    color: yellow;
+                    color: rgb(115, 115, 115);
                 }
 
                 #mainNav.navbar-shrink .nav-link:active {
-                    color: #467370;
+                    color: rgb(115, 115, 115);
                 }
 
                 #mainNav.navbar-shrink .nav-link.active {
-                    color: #64a19d;
+                    color: pink;
                     outline: none;
                     border-bottom: 0.25rem solid #64a19d;
                 }
@@ -216,7 +216,7 @@
     }
 
         .projects-section .project-text hr {
-            border-color: #64a19d;
+            border-color:#64a19d;
             border-width: .25rem;
             width: 30%;
         }
