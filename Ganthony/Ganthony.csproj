@@ -5,6 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove=".DS_Store" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="wwwroot\scss\grayscale.scss" />
     <None Include="wwwroot\scss\_about.scss" />
     <None Include="wwwroot\scss\_buttons.scss" />
@@ -16,6 +19,7 @@
     <None Include="wwwroot\scss\_signup.scss" />
     <None Include="wwwroot\scss\_variables.scss" />
     <None Include="wwwroot\VA-resume.docx" />
+    <None Include="wwwroot\img\bg-masthead.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,5 +30,6 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\VA-resume.docx" />
+    <Content Remove="wwwroot\img\bg-masthead.png" />
   </ItemGroup>
 </Project>
