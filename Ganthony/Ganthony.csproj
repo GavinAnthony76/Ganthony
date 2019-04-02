@@ -31,5 +31,9 @@
   <ItemGroup>
     <Content Remove="wwwroot\VA-resume.docx" />
     <Content Remove="wwwroot\img\bg-masthead.png" />
+    <Content Remove="wwwroot\.DS_Store" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\css\RSCss\" />
   </ItemGroup>
 </Project>
