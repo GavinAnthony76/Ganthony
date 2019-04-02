@@ -139,8 +139,8 @@
     height: auto;
     min-height: 35rem;
     padding: 15rem 0;
-    background: -webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),color-stop(75%,rgba(22,22,22,.5)),to(#161616)),url(../img/bg-masthead.png);
-    background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg-masthead.png);
+    background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+    background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -320,8 +320,8 @@
     height: auto;
     min-height: 35rem;
     padding: 15rem 0;
-    background: -webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),color-stop(75%,rgba(22,22,22,.5)),to(#161616)),url(../img/bg-masthead.png);
-    background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg-masthead.png);
+    background: -webkit-gradient(linear, left top, left bottom, from(red), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+    background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.1) 75%, rgba(22, 22, 22, 0.8) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -380,8 +380,8 @@
 }
 
 .btn-primary {
-<<<<<<< Updated upstream
-    background-color: #64a19d;
+<<<<<<< Updated upstream:;
+    background-color: transparent;
 }
 
     .btn-primary:hover {
@@ -440,8 +440,8 @@
     }
 
         .projects-section .project-text hr {
-<<<<<<< Updated upstream
-            border-color:#64a19d;
+<<<<<<< Updated upstream:
+            border-color:
 =======
             border-color: rgba(0,25,31,.3);
 >>>>>>> Stashed changes
@@ -469,16 +469,16 @@
         font-size: 80%;
         text-transform: uppercase;
         letter-spacing: .15rem;
-        border: 0
+        border: 0;
     }
 
 .contact-section {
-    padding: 5rem 0 0
+    padding: 5rem 0 0;
 }
 
     .contact-section .card {
         border: 0;
-<<<<<<< Updated upstream
+<<<<<<< Updated upstream:;
         border-bottom: 0.25rem solid #64a19d;
 =======
         border-bottom: .25rem solid rgba(0,25,31,.3)
@@ -623,11 +623,11 @@ footer {
             font-size: .8rem;
             font-family: 'Varela Round';
             text-transform: uppercase;
-            letter-spacing: .15rem
+            letter-spacing: .15rem;
         }
 
         .contact-section .card hr {
-<<<<<<< Updated upstream
+<<<<<<< Updated upstream:;
             border-color: #64a19d;
             border-width: 0.25rem;
             width: 3rem;
@@ -662,7 +662,9 @@ footer {
 
 body {
     font-family: Nunito;
-    letter-spacing: .0625em
+    letter-spacing: .0625em; 
+    background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+    background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.1) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
 <<<<<<< Updated upstream

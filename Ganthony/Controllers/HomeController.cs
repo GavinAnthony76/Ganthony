@@ -15,9 +15,9 @@ namespace Ganthony.Controllers
             return View();
         }
 
-        public IActionResult Resume()
+        public IActionResult About()
         {
-            ViewData["Message"] = "My Resume.";
+            ViewData["Message"] = "My About me page.";
 
             return View();
         }
