@@ -20,6 +20,8 @@
     <None Include="wwwroot\scss\_variables.scss" />
     <None Include="wwwroot\VA-resume.docx" />
     <None Include="wwwroot\img\bg-masthead.png" />
+    <None Include="wwwroot\css\grayscale.css" />
+    <None Include="wwwroot\css\grayscale.min.css" />
   </ItemGroup>
 
   <ItemGroup>
@@ -40,5 +42,7 @@
     <Content Remove="wwwroot\img\devicons\fonts\devicons.ttf" />
     <Content Remove="wwwroot\img\devicons\fonts\devicons.woff" />
     <Content Remove="wwwroot\css\RSCss\resume.css" />
+    <Content Remove="wwwroot\css\grayscale.css" />
+    <Content Remove="wwwroot\css\grayscale.min.css" />
   </ItemGroup>
 </Project>
