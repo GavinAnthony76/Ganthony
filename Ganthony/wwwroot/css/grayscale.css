@@ -93,7 +93,7 @@
     min-height: 35rem;
     padding: 15rem 0;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(75%, rgba(0, 0, 0, 0.1)), to(#000)), url("../img/bg-masthead.jpg");
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 75%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 75%, #000 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -105,7 +105,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(189, 93, 56, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -239,7 +239,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid#BD5D38;
+  border-bottom: 0.25rem solid #BD5D38;
 }
 
 .contact-section .card h4 {
@@ -270,12 +270,12 @@
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(189, 93, 56, 0.9);
 }
 
-.contact-section .social a:active {
-  color: #fff;
-}
+    .contact-section .social a:active {
+        color: #BD5D38;
+    }
 
 body {
     font-family: 'Nunito';
@@ -288,10 +288,10 @@ a {
   color:#BD5D38;
 }
 
-a:focus, a:hover {
-  text-decoration: none;
-  color: #3c6360;
-}
+    a:focus, a:hover {
+        text-decoration: none;
+        color: rgba(22, 22, 22, 0.5);
+    }
 
 .bg-black {
   background-color: #161616 !important;
