@@ -18,10 +18,10 @@
     <None Include="wwwroot\scss\_projects.scss" />
     <None Include="wwwroot\scss\_signup.scss" />
     <None Include="wwwroot\scss\_variables.scss" />
-    <None Include="wwwroot\VA-resume.docx" />
     <None Include="wwwroot\img\bg-masthead.png" />
     <None Include="wwwroot\css\grayscale.css" />
     <None Include="wwwroot\css\grayscale.min.css" />
+    <None Include="wwwroot\currentResume.pdf" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,7 +31,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\VA-resume.docx" />
     <Content Remove="wwwroot\img\bg-masthead.png" />
     <Content Remove="wwwroot\.DS_Store" />
     <Content Remove="wwwroot\img\devicons\css\devicons.css" />
@@ -44,6 +43,9 @@
     <Content Remove="wwwroot\css\RSCss\resume.css" />
     <Content Remove="wwwroot\css\grayscale.css" />
     <Content Remove="wwwroot\css\grayscale.min.css" />
-    <Content Remove="Views\Home\Resume.cshtml" />
+    <Content Remove="wwwroot\vendor\bootstrap\css\bootstrap.css" />
+    <Content Remove="wwwroot\currentResume.docx" />
+    <Content Remove="Views\Home\Education.cshtml" />
+    <Content Remove="wwwroot\currentResume.pdf" />
   </ItemGroup>
 </Project>

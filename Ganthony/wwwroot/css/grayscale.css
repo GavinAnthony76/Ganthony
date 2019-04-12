@@ -86,21 +86,20 @@
   }
 }
 
-.masthead {
+.mainhead {
     position: relative;
     width: 100%;
     height: auto;
     min-height: 35rem;
     padding: 15rem 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(75%, rgba(0, 0, 0, 0.1)), to(#000)), url("../img/bg-masthead.jpg");
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 75%, #000 100%);
+
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
 }
 
-.masthead h1 {
+.mainhead h1 {
   font-family: 'Varela Round';
   font-size: 2.5rem;
   line-height: 2.5rem;
@@ -110,29 +109,29 @@
   -webkit-background-clip: text;
 }
 
-.masthead h2 {
+.mainhead h2 {
   max-width: 20rem;
   font-size: 1rem;
 }
 
 @media (min-width: 768px) {
-  .masthead h1 {
+  .mainhead h1 {
     font-size: 4rem;
     line-height: 4rem;
   }
 }
 
 @media (min-width: 992px) {
-  .masthead {
+  .mainhead {
     height: 100vh;
     padding: 0;
   }
-  .masthead h1 {
+  .mainhead h1 {
     font-size: 6.5rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
-  .masthead h2 {
+  .mainhead h2 {
     max-width: 30rem;
     font-size: 1.25rem;
   }
@@ -170,15 +169,6 @@
   background-color: #467370 !important;
 }
 
-/*.about-section {
-  padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
-}
-
-.about-section p {
-  margin-bottom: 5rem;
-}*/
 
 .projects-section {
   padding: 10rem 0;
@@ -191,7 +181,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid#BD5D38;
+    border-left: 0.5rem solid #BD5D38;
   }
 }
 
@@ -210,28 +200,6 @@
     width: 30%;
   }
 }
-
-/*.signup-section {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-.signup-section .form-inline input {
-  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-}*/
 
 .contact-section {
   padding: 5rem 0 0;
@@ -280,8 +248,7 @@
 body {
     font-family: 'Nunito';
     letter-spacing: 0.0625em;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.9)), color-stop(75%, rgba(212, 22, 22, 0.9)), to(#161616)), url("../img/bg-masthead.jpg");
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.5) 0%, rgba(22, 22, 22, 0.5) 70%, #fff 100%);
+
 }
 
 a {
@@ -294,7 +261,7 @@ a {
     }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: rgba(0,0,0,.9) !important;
 }
 
 .bg-primary {
@@ -307,4 +274,7 @@ a {
 
 footer {
   padding: 5rem 0;
+}
+.bg-warning {
+    background-color: rgba(189, 93, 56, 0.9) !important;
 }
